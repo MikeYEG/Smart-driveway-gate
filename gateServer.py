@@ -109,4 +109,5 @@ def gate():
         # responed with gate position
         return jsonify({"postion":TheGate.gatePostiton()})
 
-app.run(host="192.168.1.20",port=8090, ssl_context=("/home/pi/keys/realKeys_not/fullchain.pem","/home/pi/keys/realKeys_not/privkey.pem"))
+#app.run(host="YourAddress",port=YourPort, ssl_context=("PublicKey","PrivKey")) #WAN connection
+app.run(host="YourAddress",port=YourPort) # LAN connection
