@@ -197,7 +197,7 @@ return 0;
 
 2. Compile using gcc.
 
-        gcc gateServer.py
+        gcc autorun.cpp
 
 3. Edit /etc/rc.local and add the following line before "exit 0".
 
