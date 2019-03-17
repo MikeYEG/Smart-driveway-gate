@@ -152,7 +152,7 @@ A static ip address must be assigned from the router or pi.  I recommend from th
 <i>Note this allows for commands to be set only from your local network.</i>
 
 ### Running the server
-1. When login to the raspberryPI make a cd into the repository.
+1. Login into the raspberryPI and clone the repository.
 
  Clone the repository with git.
 
