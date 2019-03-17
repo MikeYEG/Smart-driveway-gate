@@ -110,8 +110,9 @@ There are many tutorials on how to hook up a raspberry pi to a relay. Below are 
 
 ![Relay](readmepi/relay.png)
 
-<img src="readmepi/relay.jpg" height="40%">
-<img src="readmepi/pi.jpg" height="50%">
+![Relay](readmepi/relay.jpg)
+
+![Relay](readmepi/pi.jpg)
 
 
 
