@@ -90,7 +90,9 @@ Get request to the endpoint will respond with the gates position (integer from 0
 
 ### Parts
 1. Raspberry Pi (<a href="https://www.adafruit.com/product/3775" >Raspberry Pi 3 - Model B+</a> $35.00)
+
 2. 12 volt Linear Actuator (<a href= " href=https://www.amazon.com/ECO-WORTHY-Actuator-Maximum-Mounting-Brackets/dp/B07H9VZ66R/ref=sr_1_3?ie=UTF8&qid=1549036861&sr=8-3&keywords=linear+actuator "> Linear Actuator </a> $66.99)
+
 3. Two Channel relay (<a href=" href= https://www.amazon.com/dp/B0057OC6D8/ref=cm_sw_em_r_mt_dp_U_cSbHCbFHRN7B7"> SainSmart 2-Channel Relay Module </a> $8.99)
 
 Not need, but helps with soldering
