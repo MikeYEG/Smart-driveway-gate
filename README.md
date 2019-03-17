@@ -81,8 +81,6 @@ Example Post request
 ```JSON
 {
 	"gate":"open",
-	"username":"YourUserName",
-	"password":"YourPassword"
 }
 ```
 Get request to the endpoint will respond with the gates position (integer from 0-10).
