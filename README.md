@@ -70,7 +70,7 @@ def gateController(self,PinNumber):
 
 ### IOS App
 
-I create a IOS app that demonstrates how to open, close and stop the gate through post requests. Another repro explains the swift code found <a href = "">here</a>.
+I create a IOS app that demonstrates how to open, close and stop the gate through post requests. Another repro explains the swift code found <a href = "https://github.com/MitchTODO/Smart-driveway-gate-IOS">here</a>.
 
 
 ## Endpoints
