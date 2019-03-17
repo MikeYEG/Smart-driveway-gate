@@ -87,10 +87,9 @@ def gate():
 
         elif (Command == "stop"):
             TheGate.EmeStop = True
-            # TODO: change the JSON response to be a stream of gate positions
-            return jsonify({"postion":TheGate.gatePostiton()})
-        #else:
-         #   return jsonify({"Error":"Username or password is incorrect"})
+        # TODO: change the JSON response to be a stream of gate positions
+        return jsonify({"postion":TheGate.gatePostiton()})
+        
     # GET request
     elif request.method == "GET":
         # responed with gate position
