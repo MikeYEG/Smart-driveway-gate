@@ -66,16 +66,6 @@ class Gate:
 # create a gate object
 TheGate = Gate()
 
-# PLACEHOLDER FOR OAuth2.0 username password
-# NOTE this is a temporary until OAuth2.0 is implemented
-#def checkVal(username,password):
-#    with open('/home/pi/userInfo.json') as f:
-#        data = json.load(f)
-#        if data['username'] == username and data['password'] == password:
-#            return True
-#        else:
-#             return False
-#    return True
 
 # API
 app = Flask(__name__)
@@ -85,11 +75,8 @@ def gate():
     if request.method == "POST":
         # JSON user info
         Some_json = request.json
-        #Username = Some_json['username']
-        #Password = Some_json['password']
         Command = Some_json['gate']
         # three commands exist (open,close and stop)
-        #if (checkVal(Username,Password)) == True:
         if (Command == "open" and TheGate.running == False): # gate must not be running
             TheGate.EmeStop = False
             TheGate.gateController(pin1) # call gateController with the opening pin
