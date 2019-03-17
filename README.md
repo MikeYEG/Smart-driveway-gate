@@ -1,7 +1,7 @@
 # Raspberry PI Smart Gate
 
 ## Description
-Smart driveway gate controlled by a raspberry pi. +IOS App
+Smart driveway gate controlled by a raspberry pi.
 
 ## Disclaimer
 
@@ -70,7 +70,7 @@ def gateController(self,PinNumber):
 
 ### IOS App
 
-I create a IOS app that demonstrates how to open, close and stop the gate through post requests. Another repro explains the swift code found <a href = "https://github.com/MitchTODO/Smart-driveway-gate-IOS">here</a>.
+I created a IOS app that demonstrates how to open, close and stop the gate through post requests. The app isnt ready for github yet. But plans are to distribute it on the app store for free and maybe build a android app as well.
 
 
 ## Endpoints
