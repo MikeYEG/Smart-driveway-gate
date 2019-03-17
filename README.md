@@ -230,12 +230,19 @@ Please feel free to add and revise.
 ## Donate 
 
 Bitcoin : 3JNt1WTCUjzNv1TRH8izBXeykc3fJickvH
+
 Bitcoin Cash : qrdrhvt22c704j7spefwmfukldls0xh4dgzuddygdk
+
 Ethereum : 0xb47FBDa22a4ABb33DB715Dc9DBcD05f4f3246012
+
 Ethereum Classic : 0xc0fe1fD4bD931570991B59334473A34BA369A360
+
 Litecoin : LLLyGUKrgp862jyTCF8DDs7m9hoqhXdESr
+
 0x : 0x96a495494FFDf16692697BcfE23815A02a17171d
+
 Basic Attention Token : 0xE823D80C8B8914D2b1e8c4B9C08A6A941C5256Ab
+
 Zcash : t1NnhqBy1dCRvJG8LyCDxXPk2h5Hju7YTSf
 
 
