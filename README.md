@@ -1,7 +1,5 @@
 # Raspberry PI Smart Gate
 
-![Alt Text](readmepi/eample.gif)
-
 ## Description
 Smart driveway gate controlled by a raspberry pi. +IOS App
 
