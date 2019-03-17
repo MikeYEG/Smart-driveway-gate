@@ -70,7 +70,7 @@ def gateController(self,PinNumber):
 
 ### IOS App
 
-I created a IOS app that demonstrates how to open, close and stop the gate through post requests. The app isnt ready for github yet. But plans are to distribute it on the app store for free and maybe build a android app as well.
+I created a IOS app that demonstrates how to open, close and stop the gate through post requests. The app isnt ready for github yet. But plans are to distribute it on the Apple app store for free and maybe build a android app as well.
 
 
 ## Endpoints
