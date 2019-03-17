@@ -68,14 +68,14 @@ TheGate = Gate()
 
 # PLACEHOLDER FOR OAuth2.0 username password
 # NOTE this is a temporary until OAuth2.0 is implemented
-def checkVal(username,password):
-    with open('/home/pi/userInfo.json') as f:
-        data = json.load(f)
-        if data['username'] == username and data['password'] == password:
-            return True
-        else:
-             return False
-    return True
+#def checkVal(username,password):
+#    with open('/home/pi/userInfo.json') as f:
+#        data = json.load(f)
+#        if data['username'] == username and data['password'] == password:
+#            return True
+#        else:
+#             return False
+#    return True
 
 # API
 app = Flask(__name__)
@@ -85,25 +85,25 @@ def gate():
     if request.method == "POST":
         # JSON user info
         Some_json = request.json
-        Username = Some_json['username']
-        Password = Some_json['password']
+        #Username = Some_json['username']
+        #Password = Some_json['password']
         Command = Some_json['gate']
         # three commands exist (open,close and stop)
-        if (checkVal(Username,Password)) == True:
-            if (Command == "open" and TheGate.running == False): # gate must not be running
-                TheGate.EmeStop = False
-                TheGate.gateController(pin1) # call gateController with the opening pin
+        #if (checkVal(Username,Password)) == True:
+        if (Command == "open" and TheGate.running == False): # gate must not be running
+            TheGate.EmeStop = False
+            TheGate.gateController(pin1) # call gateController with the opening pin
 
-            elif (Command == "close" and TheGate.running == False):
-                TheGate.EmeStop = False
-                TheGate.gateController(pin2)
+        elif (Command == "close" and TheGate.running == False):
+            TheGate.EmeStop = False
+            TheGate.gateController(pin2)
 
-            elif (Command == "stop"):
-                TheGate.EmeStop = True
+        elif (Command == "stop"):
+            TheGate.EmeStop = True
             # TODO: change the JSON response to be a stream of gate positions
             return jsonify({"postion":TheGate.gatePostiton()})
-        else:
-            return jsonify({"Error":"Username or password is incorrect"})
+        #else:
+         #   return jsonify({"Error":"Username or password is incorrect"})
     # GET request
     elif request.method == "GET":
         # responed with gate position
