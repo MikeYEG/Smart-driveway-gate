@@ -75,7 +75,7 @@ I create a IOS app that demonstrates how to open, close and stop the gate throug
 
 ## Endpoints
 
-A single endpoint exist "/gate" that allows for Post and Get requests. A post request takes in application/JSON with three objects username, password and a gate command. Three gate commands exist "open","close" and "stop". Username and password is temporary, it will need to be upgraded to either Oauth2.0 or token-based.
+A single endpoint exist "/gate" that allows for Post and Get requests. A post request takes in application/JSON with one object a gate command. Three gate commands exist "open","close" and "stop". Security will need to be upgraded to either Oauth2.0 or token-based.
 
 Example Post request
 ```JSON
