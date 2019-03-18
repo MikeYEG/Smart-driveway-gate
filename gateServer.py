@@ -21,7 +21,7 @@ class Gate:
         # Initialize the gate to be fully open
         GPIO.setup(pin2,GPIO.OUT)
         GPIO.output(pin2,False)
-        time.sleep(35) # leave pin on for 30 seconds
+        time.sleep(35) # leave pin on for 35 seconds
         GPIO.output(pin2,True)
 
 
