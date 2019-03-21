@@ -38,7 +38,7 @@ class Gate:
                     self.running = False # gate not running when stopped
                     break
                 else:
-                    time.sleep(1.5)
+                    time.sleep(1)
                     GPIO.output(PinNumber,False)
                     self.status = a
             GPIO.output(PinNumber,True)
