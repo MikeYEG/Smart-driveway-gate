@@ -70,7 +70,7 @@ def gateController(self,PinNumber):
 
 ### IOS App
 
-I created a IOS app that demonstrates how to open, close and stop the gate through post requests. 
+I created a IOS app that demonstrates how to open, close and stop the gate through post requests. <a href = "https://github.com/MitchTODO/SmartGate-IOS-App>Repro here</a> 
 
 
 ## Endpoints
