@@ -9,6 +9,8 @@ As the source code creator, I'm not labile for damages done to personal property
 
 ## Architecture
 
+![Sequence](readmepi/GateServer-Sequence-Diagram.png)
+
 ### Server
 
 The server code architecture is a RESTful api, allowing for a span of devices to control the gate. Server code is written in python (3.5.3) with the <a href= "http://flask.pocoo.org/docs/1.0/quickstart/"> flask library </a> (1.0.2). The RPi.GPIO library is also used to control the linear actuator from the raspberry pi.
