@@ -221,10 +221,6 @@ Otherwise, use dynamic DNS.
 
 Free ssl certificates provided by open source CA called <a href = "https://letsencrypt.org/">LetsEncrypt</a>. This allow for secure channel when connecting to the pi API.
 
-## Issues
-
-Two issues optimization and lack of security.
-
 ## Contribute
 
 Please feel free to add and revise.
